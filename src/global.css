@@ -329,5 +329,9 @@ section {
 }
 
 @page {
+    margin: 0.2in 0;
+}
+
+@page:first {
     margin: 0;
 }
