@@ -52,6 +52,7 @@ body {
 	display: flex;
 	flex: 1;
     flex-direction: column;
+    print-color-adjust: exact !important;
 }
 
 p, a {
@@ -227,15 +228,7 @@ section {
 	}
 
 }
-/* ==========================================================================
-   Over 720 width
-   ========================================================================== */
-@media screen and (min-width: 720px) {
 
-	.footer {
-		background-image: linear-gradient(43deg, #bb2fb2 0%, #610766 46%, #32aaf0 100%);
-	}
-}
 /* ==========================================================================
    Over 980 width
    ========================================================================== */
@@ -276,6 +269,30 @@ section {
 }
 
 /* ==========================================================================
+   Print
+   ========================================================================== */
+@media print {
+
+	footer, #toggleAllPostions, #githubSection {
+		display: none !important;
+	}
+
+    .section_right .section {
+		width: 50%;
+		display: inline-flex;
+		flex-direction: column;
+	}
+
+    p, a {
+        font-size: 1.25em;
+    }
+
+    .experience {
+        break-inside: avoid;
+    }
+}
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -309,4 +326,8 @@ section {
     font-weight: normal;
     font-style: normal;
 
+}
+
+@page {
+    margin: 0;
 }

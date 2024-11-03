@@ -42,7 +42,7 @@ export default component$(() => {
               : profile.positions.slice(0, 3).map((position, index) => (<Position key={index} title={position.title} company={position.company} companyWebsite={position.companyWebsite} period={position.period} description={position.description} links={position.links} />))}
             </div>
             <div>
-            <button class="raised btn-secondary" onClick$={() => store.allPositions = !store.allPositions}>{store.allPositions ? 'Show less' : 'Show all'}</button>
+            <button id="toggleAllPostions" class="raised btn-secondary" onClick$={() => store.allPositions = !store.allPositions}>{store.allPositions ? 'Show less' : 'Show all'}</button>
           </div>
           </div>
 
@@ -104,16 +104,16 @@ export default component$(() => {
             </div>
           </div>
 
-          <div class="section">
-          <div class="sectionHeader">
-            <a style="font-size: 1em;" href="https://github.com/rx-mikkel/" target="_blank">
-              <div class="icon linkIcon raised github">
-                <img src="../../images/gh.png" alt="Github icon" width={42} height={42} />
-              </div>
-              <h2>GitHub</h2>
-            </a>
+          <div class="section" id="githubSection">
+            <div class="sectionHeader">
+              <a style="font-size: 1em;" href="https://github.com/rx-mikkel/" target="_blank">
+                <div class="icon linkIcon raised github">
+                  <img src="../../images/gh.png" alt="Github icon" width={42} height={42} />
+                </div>
+                <h2>GitHub</h2>
+              </a>
+            </div>
           </div>
-        </div>
 
         </div>
       </div>

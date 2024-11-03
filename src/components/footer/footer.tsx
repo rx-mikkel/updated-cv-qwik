@@ -1,5 +1,4 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
-//import { QwikLogo } from '../icons/qwik';
 import styles from './footer.css?inline';
 import profile from '../../../public/profile.service.json';
 
