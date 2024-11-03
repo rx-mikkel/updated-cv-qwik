@@ -131,6 +131,10 @@
 	   {
 		  "name":"Strategy",
 		  "rating":94
+	   },
+	   {
+		  "name":"UI library",
+		  "rating":94
 	   }
 	],
 	"tools":[
