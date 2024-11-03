@@ -2,11 +2,11 @@
 	background-color: var(--green-bg);
 	border-radius: 50px;
 	font-size: 1.3em;
-	font-weight: 400;
-	padding: .4em 1em;
+	font-family: 'robotobold';
+	padding: .5em 1.2em;
 	color: #fff;
 	display: inline-flex;
-	margin: .2em;
+	margin: .25em;
 	white-space: nowrap;
 	line-height: 1;
 }

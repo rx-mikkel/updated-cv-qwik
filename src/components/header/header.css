@@ -1,6 +1,6 @@
 header {
 	background-color: #610766;
-	background-image: linear-gradient(243deg, #ce71f3 0%, #843df5 100%);
+	background-image: linear-gradient(243deg, #7a71f1 0%, #965ef0 100%);
 	border-bottom: 1px solid rgba(0,0,0,.2);
 	margin-bottom: 6em;
 	box-shadow: inset 0px -4px 12px -6px rgba(0,0,0,.25);
@@ -13,15 +13,15 @@ header {
 }
 
 .bubble {
-	width: 15em;
-	height: 15em;
+	width: 16em;
+	height: 16em;
 	border-radius: 50%;
 	overflow: hidden;
 	border: 2px solid #fff;
 	position: absolute;
-	bottom: -7.5em;
+	bottom: -7em;
 	left: 50%;
-	margin-left: -7.5em;
+	margin-left: -8em;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.18), 2px 2px 7px 1px rgba(0,0,0,.24);
 }
 
@@ -31,6 +31,6 @@ header {
    @media screen and (min-width: 720px) {
 
 	header {
-		background-image: linear-gradient(243deg, #ce71f3 0%, #843df5 46%, #51d8f0 100%);
+		background-image: linear-gradient(243deg, #ad49db 0%, #843df5 46%, #409ae4 100%);
 	}
 }

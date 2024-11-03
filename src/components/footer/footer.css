@@ -3,7 +3,7 @@ footer {
 	align-items: center;
 	flex-direction: column;
 	background-color: #610766;
-	background-image: linear-gradient(43deg, #bb2fb2 0%, #610766 100%);
+	background-image: linear-gradient(43deg, #4932cc 0%, #560766 100%);
 	margin-top: 4em;
 	border-top: 1px solid rgba(0,0,0,.25);
 	box-shadow: inset 0px 8px 16px -6px rgba(0,0,0,.25);
@@ -29,9 +29,12 @@ footer {
 
 .linked-in {
 	background-color: #0077B5;
+	border-top: 1px solid rgba(255, 255, 255, .2);
 	border-radius: 50px;
 	color: #fff !important;
-	padding: .4em 2em;
+	font-weight: 700;
+	font-size: 1.6em;
+	padding: .6em 2.4em;	
 	text-decoration: none;
 	margin: 2em;
 	display: inline-block;
@@ -44,6 +47,6 @@ footer {
    @media screen and (min-width: 720px) {
 
 	footer {
-		background-image: linear-gradient(43deg, #bb2fb2 0%, #610766 46%, #32aaf0 100%);
+		background-image: linear-gradient(43deg, #801d94 0%, #4b044e 46%, #2843dd 100%);
 	}
 }

@@ -18,7 +18,8 @@
 		  "period":"Jan 2022 - Present",
 		  "description":[
 			 "Designing and developing both the customer facing web applications as well as the UI library powering the UI's.",
-			 "Things like modals with automatic edge detection (so they don't render off screen), building a datapicker by putting input, calendar and modal components together to form a new high-level component."
+			 "Things like modals with automatic edge detection (so they don't render off screen), or building a datapicker by putting input, calendar and modal components together to form a new high-level component.",
+			 "Working with time and timezones."
 		  ],
 		  "links":[
 			 
@@ -39,6 +40,7 @@
 	   {
 		  "title":"Full-stack designer",
 		  "company":"MapsPeople",
+		  "companyWebsite":"https://www.mapspeople.com/",
 		  "period":"Aug 2016 - Apr 2019",
 		  "description":[
 			 "At MapsPeople my main responsibility was developing, designing and architecting the management solution (CMS) for the MapsIndoors platform.",
@@ -46,7 +48,6 @@
 			 "The tools used internally have been updated and consolidated in the process and the time spent has been reduced by more than 50% while satisfaction has gone up considerably! This was only possible by working closely with the colleagues who use the tools on a daily basis."
 		  ],
 		  "links":[
-			 "https://www.mapspeople.com/"
 		  ]
 	   },
 	   {
@@ -142,15 +143,15 @@
 			"rating":81
 		},
 		{
-			"name":"JS",
-			"rating":92
-		},
-		{
 			"name":"Angular",
 			"rating":93
 		},
 		{
 			"name":"React",
+			"rating":93
+		},
+		{
+			"name":"Alpine.js",
 			"rating":93
 		},
 		{
@@ -164,10 +165,10 @@
 		  "endName":"App (SAAS)",
 		  "start":58,
 		  "end":0,
-		  "description":"Through most of my career I have built web-software rather than websites."
+		  "description":"Web based applications rather than websites."
 	   },
 	   {
-		  "startName":"(UX) Designer",
+		  "startName":"Designer",
 		  "endName":"Developer",
 		  "start":8,
 		  "end":18,
@@ -178,7 +179,7 @@
 		  "endName":"Big picture, strategy",
 		  "start":42,
 		  "end":0,
-		  "description":"I tend to be more concerned with what I am building than how."
+		  "description":"In the end it's more about what value we deliver not how we got there."
 	   }
 	],
 	"languages":[
@@ -198,7 +199,6 @@
 	"activities":[
 	   "Time with my kids",
 	   "Learning guitar",
-	   "Bicycling",
 	   "Woodworking"
 	]
  }

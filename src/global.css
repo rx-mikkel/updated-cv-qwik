@@ -7,9 +7,9 @@
  */
 
  :root {
-	--font-stack: 'Roboto', sans-serif;
+	--font-stack: 'robotoregular', sans-serif;
 
-	--font-color: #3f1683;
+	--font-color: #270b55;
 	--grey-background: #f3edf5;
 
 	--link: #53008a;
@@ -55,8 +55,8 @@ body {
 }
 
 p, a {
-	font-size: 1.5em;
-	line-height: 1.5em;
+	font-size: 1.6em;
+	line-height: 1.6em;
 	margin: 0em; 
 	transition: all .2s ease;
 }
@@ -208,9 +208,6 @@ section {
 }
 
 
-
-
-
 /* ==========================================================================
    Over 460 width
    ========================================================================== */
@@ -287,3 +284,29 @@ section {
 	visibility: hidden; 
 }
 
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
