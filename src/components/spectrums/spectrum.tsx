@@ -20,7 +20,9 @@ export default component$((zone: spectrumProps) => {
 			<p>{zone.endName}</p>
 		</div>
 		<div class="skillBar">
-			<div class="focusInner" style={{marginLeft: zone.start + '%', marginRight: zone.end + '%'}}></div>
+			<div class="focusInner" style={{marginLeft: zone.start + '%', marginRight: zone.end + '%'}}>
+				<div class="arrow-up"></div>
+			</div>
 		</div>
 		<p>{zone.description}</p>
 	</div>
