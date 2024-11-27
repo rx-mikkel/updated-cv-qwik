@@ -16,9 +16,9 @@ export default component$((position: positionProps) => {
 	return (
 		<div class="experience">
 			<h3>{position.title}</h3>
-			<h4>
+			<span class="experienceWhen">
 				{ position.companyWebsite ? <a class="companyLink" href={position.companyWebsite}>{position.company}</a> : <span style={{fontWeight: 400}}>{position.company}</span> }, {position.period}
-			</h4> 
+			</span> 
 			{position.description.map((paragraph, index) => (<p key={index}>{paragraph}</p>))}
 			{ position.links ? position.links.map((link, index) => (<div key={index} class="link-container"><a href={link} target="_blank">{link}</a></div>)) : null}
 		</div>

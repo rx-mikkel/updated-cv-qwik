@@ -9,7 +9,11 @@ header {
 	justify-content: center;
 	position: relative;
 	padding-bottom: 7.5em;
-	color: #33044e
+	color: #33044e;
+
+	h1, h2 {
+		text-shadow: 0px 0px 2px rgba(255, 255, 255, .25);
+	}
 }
 
 .bubble {
@@ -26,11 +30,11 @@ header {
 }
 
 /* ==========================================================================
-   Over 720 width
-   ========================================================================== */
-   @media screen and (min-width: 720px) {
+	Over 720 width
+	========================================================================== */
+	@media screen and (min-width: 720px) {
 
-	header {
-		background-image: linear-gradient(243deg, #ad49db 0%, #843df5 46%, #409ae4 100%);
-	}
+		header {
+			background-image: linear-gradient(243deg, #ad49db 0%, #843df5 46%, #409ae4 100%);
+		}
 }
