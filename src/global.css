@@ -74,6 +74,17 @@ a:hover {
 	color: var(--link-light);
 }
 
+a:focus-visible {
+	outline-offset: 2px;
+	outline: #270b55 solid 2px;
+	border-radius: 0.25rem;
+}
+
+button:focus-visible {
+	outline-offset: 2px;
+	outline: #270b55 solid 2px;
+}
+
 .textContent p + p {
 	margin-top: 1.4em;
 }
@@ -188,6 +199,11 @@ section {
 		box-shadow: 2px 4px 8px rgba(27, 4, 68, 0.28), 7px 7px 14px rgba(72, 4, 104,.3);
 		transform: translate(-1px, -4px) scale(1.1);
 	}
+}
+
+.positionList {
+    transition: height 0.4s ease-in;
+    height: calc-size(auto);
 }
 
 .btn-secondary {
