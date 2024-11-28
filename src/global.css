@@ -283,7 +283,7 @@ section {
 @media (prefers-color-scheme: dark) {
 	:root {
 		--font-color: #ffffff;
-		--grey-background: #14032e;
+		--grey-background: #120329;
 
 		--link: #891cd1;
 		--link-light: rgb(176, 35, 189);
