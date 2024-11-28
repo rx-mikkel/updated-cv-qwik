@@ -29,7 +29,7 @@ export default component$(() => {
             </div>
           </div>
 
-          <div class="section">
+          <div class="section experiences">
             <div class="sectionHeader" style="margin-bottom: 0px;">
               <div class="icon">
                 <img src="../../images/experience.svg" alt="A tie, symbolising experience" width={48} height={48} />
