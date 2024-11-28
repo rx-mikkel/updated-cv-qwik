@@ -15,7 +15,7 @@
 	--link: #53008a;
 	--link-light: #8618b9;
 
-	--blue-text: #007c9b;
+	--blue-text: #00509b;
 
 	--blue-bg: #24b8dd;
 	--green-bg: #0c848d;
@@ -277,6 +277,36 @@ section {
 
 	.section_left.column {
 		width: 50%; 
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--font-color: #ffffff;
+		--grey-background: #14032e;
+
+		--link: #891cd1;
+		--link-light: rgb(176, 35, 189);
+
+		--blue-text: #3d93e4;
+	}
+	
+	.btn-secondary {
+		background-color: var(--link);
+		color: #fff;
+		border: none;
+		font-weight: 700;
+		border-radius: 50px;
+		padding: .4rem 1.2rem;
+		text-decoration: none;
+		display: inline-block;
+		transition: all .25s ease;
+		font-size: 1rem;
+		cursor: pointer;
+
+		&:hover {
+			background-color: var(--link-light);
+		}
 	}
 }
 
