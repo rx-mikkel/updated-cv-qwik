@@ -139,6 +139,10 @@
 	],
 	"tools":[
 		{
+			"name":"CSS",
+			"rating":98
+		},
+		{
 			"name":"Qwik",
 			"rating":38
 		},
