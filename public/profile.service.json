@@ -1,6 +1,6 @@
 {
 	"userName":"Mikkel Ørum Skovgaard-Petersen",
-	"title":"UI designer and front-end developer",
+	"title":"Design Engineer",
 	"phone":"+45 2687 8061",
 	"email":"mikkeloerum@hey.com",
 	"address":"Zincksvej 7a, Godthåb",
@@ -53,6 +53,7 @@
 	   {
 		  "title":"Front-end developer",
 		  "company":"Klean",
+		  "companyWebsite": "https://kleangroup.dk/",
 		  "period":"Apr 2015 - Jul 2016",
 		  "description":[
 			 "At Klean I worked closely with our customers to build the websites they need to run their business. Applying my knowledge about user experience, communication and customer behavior to design the right solutions, then develop the websites using the best tools available to optimize speed, maintainability and stability."
@@ -149,6 +150,10 @@
 		{
 			"name":"TypeScript",
 			"rating":81
+		},
+		{
+			"name":"Html",
+			"rating":93
 		},
 		{
 			"name":"Angular",
