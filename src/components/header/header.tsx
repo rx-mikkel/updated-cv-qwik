@@ -14,7 +14,7 @@ export default component$(() => {
                 <h2 style="margin-top: 0em; line-height: 1.4em;">{profile.title}</h2>
             </div>
         </div>
-        <div class="bubble">
+        <div class="bubble blob">
           <img width={160} height={160} src="../../../images/cv.webp" alt="Image of me" />
         </div>
       </div>

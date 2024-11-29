@@ -19,7 +19,6 @@ header {
 .bubble {
 	width: 16em;
 	height: 16em;
-	border-radius: 50%;
 	overflow: hidden;
 	border: 2px solid #fff;
 	position: absolute;
@@ -27,6 +26,15 @@ header {
 	left: 50%;
 	margin-left: -8em;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.18), 2px 2px 7px 1px rgba(0,0,0,.24);
+	border-radius: 50%;
+	transition: border-radius 4s ease;
+
+	&:hover {
+		border-top-left-radius: 94% 72%;
+		border-bottom-left-radius: 64% 77%;
+		border-top-right-radius: 68% 87%;
+		border-bottom-right-radius: 92% 76%;
+	}
 }
 
 /* ==========================================================================
