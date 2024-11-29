@@ -178,8 +178,8 @@
 	   {
 		  "startName":"Designer",
 		  "endName":"Developer",
-		  "start":12,
-		  "end":22,
+		  "start":7,
+		  "end":18,
 		  "description":"Designing functionality and interaction, then implementing."
 	   },
 	   {
@@ -197,11 +197,11 @@
 	   },
 	   {
 		  "name":"English",
-		  "rating":94
+		  "rating":98
 	   },
 	   {
 		  "name":"German",
-		  "rating":54
+		  "rating":58
 	   }
 	],
 	"activities":[
