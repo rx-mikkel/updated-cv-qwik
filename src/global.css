@@ -227,6 +227,12 @@ section {
 	max-width: 42px;
 }
 
+.blob {
+	border-top-left-radius: 94% 72%;
+	border-bottom-left-radius: 64% 77%;
+	border-top-right-radius: 68% 87%;
+	border-bottom-right-radius: 92% 76%;
+}
 
 /* ==========================================================================
    Over 460 width
