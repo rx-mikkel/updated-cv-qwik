@@ -308,6 +308,10 @@ section {
 			background-color: var(--link-light);
 		}
 	}
+
+	a:focus-visible, button:focus-visible {
+		outline-color: #fff;
+	}
 }
 
 /* ==========================================================================
