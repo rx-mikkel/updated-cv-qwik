@@ -59,7 +59,7 @@ p, a {
 	font-size: 1rem;
 	line-height: 1.6rem;
 	margin: 0; 
-	transition: all .2s ease;
+	transition: all .25s ease;
 }
 
 p a {
@@ -192,7 +192,7 @@ section {
 .raised {
 	box-shadow: 1px 2px 4px rgba(27, 4, 68, 0.32), 2px 2px 7px 1px rgba(72, 4, 104, 0.48);
     transform: scale(1);
-    transition: all .15s ease;
+    transition: all .25s ease;
 
 	&:hover, &:focus-visible {
 		box-shadow: 2px 4px 8px rgba(27, 4, 68, 0.28), 7px 7px 14px rgba(72, 4, 104,.3);

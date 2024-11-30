@@ -8,7 +8,7 @@ export default component$(() => {
 	return (
 	<footer>
 		<a class="top raised" title="Go to top" href="#top"></a>
-		<a class="linked-in raised" href={profile.linkedIn}>Connect</a>
+		<a class="linked-in raised" href={profile.linkedIn}>Connect<span class="shine"></span></a>
 	</footer>
 	);
 });
