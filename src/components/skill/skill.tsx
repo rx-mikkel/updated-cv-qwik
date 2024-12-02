@@ -9,7 +9,7 @@ export default component$((skill: skillProps) => {
 	useStylesScoped$(styles);
 
 	const color1 = {
-		red: 183,
+		red: 168,
 		green: 10,
 		blue: 168
 	};

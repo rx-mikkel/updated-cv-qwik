@@ -98,7 +98,7 @@ export default component$(() => {
               <h2>Activities</h2>
             </div>
             <div>
-              <div class="column">
+              <div class="column activities">
                 {profile.activities.map((act, index) => (<h3 key={index}>{act}</h3>))}
               </div>
             </div>

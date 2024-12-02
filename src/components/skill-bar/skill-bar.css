@@ -1,7 +1,10 @@
+.skill + .skill {
+	margin-top: 1rem;
+}
+
 .skillBar {
 	border: 1px solid var(--link);
 	background-color: var(--link);
-	margin-bottom: 1.2em; 
 	border-radius: 20px;
 	overflow: hidden;
 	box-shadow: inset 0px 4px 9px -4px rgba(0, 0, 0, .84);

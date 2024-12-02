@@ -207,6 +207,16 @@ section {
     height: calc-size(auto);
 }
 
+.activities {
+	h3 {
+		margin: 0;
+	}
+
+	h3 + h3 {
+		margin-top: 0.6rem;
+	}
+}
+
 .btn-secondary {
 	background-color: #fff;
 	color: var(--link);
