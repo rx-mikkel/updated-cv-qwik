@@ -15,7 +15,7 @@ export default component$(() => {
             </div>
         </div>
         <div class="bubble blob">
-          <img width={160} height={160} src="../../../images/cv.webp" alt="Image of me" />
+          <img width={176} height={176} src="../../../images/cv.webp" alt="Image of me" />
         </div>
       </div>
     </header>

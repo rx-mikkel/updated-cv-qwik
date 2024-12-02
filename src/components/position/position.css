@@ -1,6 +1,6 @@
 .experience {
-	padding: 2em;
-    margin: 2em 0;
+	padding: 1rem;
+    margin: 2rem 0;
     background-color: rgba(255, 255, 255, .4);
     border-radius: var(--base-rounding);
 	display: flex;
@@ -13,17 +13,28 @@
 }
 
 .experienceWhen {
-    color: var(--blue-text);
+    color: rgba(255, 255, 255, .80);
     font-size: 0.87rem;
+    font-family: robotolight;
 }
 
 .companyLink {
     font-size: 1rem;
-    font-weight: 400;
+    font-family: robotoregular;
 }
 
 .link-container {
 	padding-top: 2em;
+}
+
+/* ==========================================================================
+	Over 840 width
+	========================================================================== */
+	@media screen and (min-width: 840px) {
+
+		.experience {
+			padding: 2rem;
+		}
 }
 
 @media (prefers-color-scheme: dark) {

@@ -4,11 +4,11 @@
 	margin-bottom: 1.2em; 
 	border-radius: 20px;
 	overflow: hidden;
-	box-shadow: inset 0px 4px 9px -5px rgba(0, 0, 0, .8);
+	box-shadow: inset 0px 4px 9px -4px rgba(0, 0, 0, .84);
 }
 
 .skillInner {
 	background-color: #fd30a8;
-	height: .8em;
+	height: .6rem;
 	box-shadow: inset -40px 0px 56px -30px rgba(255, 27, 65, 0.8);
 }

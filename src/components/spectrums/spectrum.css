@@ -3,13 +3,13 @@
 	background-color: var(--link);
 	margin-bottom: 1.2em; 
 	border-radius: 20px;
-	box-shadow: inset 0px 4px 9px -5px rgba(0, 0, 0, .8);
+	box-shadow: inset 0px 4px 9px -4px rgba(0, 0, 0, .84);
 }
 
 .spectrumDiv {
 	vertical-align: top;
 	display: inline-block;
-	padding: 2em;
+	padding: 1rem;
 	width: 100%;
 	min-width: 100%;
 }
@@ -20,12 +20,12 @@
 }
 
 .spectrumCaption p {
-    font-size: 14px;
+    font-size: 0.87rem;
 }
 
 .focusInner {
 	background-color: rgb(253, 62, 174);
-	height: .8em;
+	height: .6rem;
 	border-radius: 20px;
 	display: flex;
 	justify-content: center;
