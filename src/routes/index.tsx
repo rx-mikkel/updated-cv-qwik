@@ -99,7 +99,7 @@ export default component$(() => {
             </div>
             <div>
               <div class="column activities">
-                {profile.activities.map((act, index) => (<h3 key={index}>{act}</h3>))}
+                {profile.activities.map((act, index) => (<h4 key={index}>{act}</h4>))}
               </div>
             </div>
           </div>
