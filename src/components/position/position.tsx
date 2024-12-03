@@ -14,7 +14,7 @@ export default component$((position: positionProps) => {
 	useStylesScoped$(styles);
 
 	return (
-		<div class="experience">
+		<div class="experience fire">
 			<h3>{position.title}</h3>
 			<span class="experienceWhen">
 				{ position.companyWebsite ? <a class="companyLink" href={position.companyWebsite}>{position.company}</a> : <span style={{fontWeight: 400}}>{position.company}</span> }, {position.period}

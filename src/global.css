@@ -20,6 +20,49 @@
 	--base-rounding: 4px;
 }
 
+@property --a { /* must register --a to animate it */
+	syntax: '<angle>';
+	initial-value: 0deg;
+	/* used only on pseudo, nowhere to be inherited, 
+	 * better perf if set false, see 
+	 * https://www.bram.us/2024/10/03/benchmarking-the-performance-of-css-property/ */
+	inherits: false
+}
+
+.fire::before {
+	opacity: 0;
+	z-index: 10;
+	/* grid doesn't work for stacking when a stacked item is text node */
+	position: absolute;
+	/* place behind card content, so card text is selectable, etc */
+	z-index: -1;
+	/* best if inset is at least half the border-width with minus */
+	inset: -1em;
+	/* reserve space for border */
+	border: solid 1em;
+	border-image: 
+		/* adjust gradient as needed, I just used a random palette */
+		conic-gradient(from var(--a), #aa22ff, transparent, #9922aa, #cc0066, transparent, 
+				#ff0099, #cc22aa, transparent, #990033, #cc3399, 
+				#ff2200, #ff22dd, #ff2255, #aa22cc) 1;
+	/* blur this pseudo */
+	filter: blur(1.5em);
+	/* tweak animation duration as necessary */
+	animation: a 18s linear infinite;
+	/* needed so pseudo is displayed */
+	content: '';
+	transition: opacity 4s ease;
+	mask-image: conic-gradient(from calc(var(--a) * -1), transparent, #9922aa, transparent, 
+				transparent, #cc22aa, transparent, #990033, #ff2200, #ff22dd, #ff2255, #aa22cc, transparent);
+}
+
+.fire:hover::before {
+	opacity: .8;
+}
+
+/* animate --a from its initial-value 0deg to 1turn */
+@keyframes a { to { --a: 1turn } }
+
 html {
 	display: flex;
 	flex: 1;
@@ -154,6 +197,8 @@ section {
 }
 
 .icon {
+	overflow: hidden;
+	position: relative;
 	width: 3.5rem;
 	height: 3.5rem;
 	margin-right: 0.75rem;
