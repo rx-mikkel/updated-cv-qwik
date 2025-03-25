@@ -1,6 +1,6 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './footer.css?inline';
-import profile from '../../../public/profile.service.json';
+import profile from '../../profile.service.json';
 
 export default component$(() => {
 	useStylesScoped$(styles);

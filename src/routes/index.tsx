@@ -1,6 +1,6 @@
 import { component$, useStore } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import profile from '../../public/profile.service.json';
+import profile from '../profile.service.json';
 import Position from '~/components/position/position';
 import SkillBar from '~/components/skill-bar/skill-bar';
 import Skill from '~/components/skill/skill';
