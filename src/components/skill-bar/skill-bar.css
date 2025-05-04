@@ -3,7 +3,6 @@
 }
 
 .skillBar {
-	border: 1px solid var(--link);
 	background-color: var(--link);
 	border-radius: 20px;
 	overflow: hidden;

@@ -1,5 +1,4 @@
 .skillBar {
-	border: 1px solid var(--link);
 	background-color: var(--link);
 	margin-bottom: 1.2em; 
 	border-radius: 20px;
@@ -25,7 +24,7 @@
 
 .focusInner {
 	background-color: rgb(253, 62, 174);
-	height: .6rem;
+	height: .7rem;
 	border-radius: 20px;
 	display: flex;
 	justify-content: center;
@@ -35,7 +34,7 @@
 .arrow-up {
 	width: 0; 
 	height: 0;
-	transform: translate(0, 1em);
+	transform: translate(0, 0.8em);
 	border-left: 6px solid transparent;
 	border-right: 6px solid transparent;
 	

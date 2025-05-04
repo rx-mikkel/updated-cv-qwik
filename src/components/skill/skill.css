@@ -2,10 +2,12 @@
 	border-radius: 50px;
 	font-size: 0.87rem;
 	font-family: 'robotobold';
+	text-shadow: 0px -1px rgba(0, 0, 0, .6);
 	padding: .5em 1.2em;
-	color: #fff;
+	color: rgba(255, 255, 255, .9);
 	display: inline-flex;
 	margin: .25em;
 	white-space: nowrap;
 	line-height: 1;
+	box-shadow: inset 1px 1px 2px rgba(255, 255, 255, .12);
 }

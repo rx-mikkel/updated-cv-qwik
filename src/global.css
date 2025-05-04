@@ -206,7 +206,7 @@ section {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: radial-gradient(circle, rgb(12, 86, 224) 0%, rgb(3, 31, 109) 100%);
+	background-image: radial-gradient(circle, rgb(104, 12, 224) 0%, rgb(48, 29, 83) 100%);
 
 	img {
 		max-width: 3rem;
