@@ -21,7 +21,7 @@ export default component$(() => {
           <div class="section">
             <div class="textContent">{profile.intro.map((paragraph, index) => (<p key={index}>{paragraph}</p>))}</div>
 
-            <br /><br />
+            <br />
             <h3>Relative strength</h3>
             <p>Where do I provide most value?</p>
             <div class="spectrums">
@@ -39,7 +39,7 @@ export default component$(() => {
             <div class="positionList">
               {store.allPositions ? 
               profile.positions.map((position, index) => (<Position key={index} title={position.title} company={position.company} companyWebsite={position.companyWebsite} period={position.period} description={position.description} links={position.links} />)) 
-              : profile.positions.slice(0, 5).map((position, index) => (<Position key={index} title={position.title} company={position.company} companyWebsite={position.companyWebsite} period={position.period} description={position.description} links={position.links} />))}
+              : profile.positions.slice(0, 4).map((position, index) => (<Position key={index} title={position.title} company={position.company} companyWebsite={position.companyWebsite} period={position.period} description={position.description} links={position.links} />))}
             </div>
             <div>
             <button id="toggleAllPostions" class="raised btn-secondary" onClick$={() => store.allPositions = !store.allPositions}>{store.allPositions ? 'Show less' : 'Show all'}</button>
