@@ -76,7 +76,7 @@ html {
 }
 
 ::selection {
-	background: rgba(7, 151, 177, 0.3);
+	background: rgba(136, 55, 229, 0.3);
 	text-shadow: none; }
 
 body {
@@ -206,7 +206,7 @@ section {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: radial-gradient(circle, rgb(104, 12, 224) 0%, rgb(48, 29, 83) 100%);
+	background-image: radial-gradient(circle, rgb(86, 8, 188) 0%, rgb(23, 7, 51) 100%);
 
 	img {
 		max-width: 3rem;

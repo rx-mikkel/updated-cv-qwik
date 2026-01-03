@@ -24,11 +24,11 @@
 
 .focusInner {
 	background-color: rgb(253, 62, 174);
-	height: .7rem;
+	height: .6rem;
 	border-radius: 20px;
 	display: flex;
 	justify-content: center;
-	background-image: linear-gradient(90deg, rgba(255, 27, 65, 0) 20%, rgba(253, 74, 104, 0.42) 50%, rgba(255, 27, 65, 0) 80%);
+	background-image: linear-gradient(90deg, rgba(255, 27, 65, 0) 20%, rgba(246, 107, 37, 0.53) 50%, rgba(255, 27, 65, 0) 80%);
 }
 
 .arrow-up {
