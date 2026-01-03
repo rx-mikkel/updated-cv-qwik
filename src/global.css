@@ -392,18 +392,16 @@ section {
 	}
 
 	.section_right {
+		padding-top: 0;
 		flex: 1;
 		padding-left: 2em;
 	}
 
 	.section_right .section {
 		width: 100%;
+		padding: 1rem 0;
 	}
-
-	.section {
-		padding: 2rem 0; 
-	}
-
+	
 	.section_left {
 		flex: 2;
 	}

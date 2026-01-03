@@ -12,6 +12,20 @@
 	"linkedIn":"https://www.linkedin.com/in/mikkeloerum/",
 	"positions":[
 		{
+			"title":"Front-end developer",
+			"company":"Rina",
+			"companyWebsite":"https://www.rinadigitalsolutions.dk/",
+			"period":"Nov 2025 - Current",
+			"description":[
+				"Rina's digital solutions department is a main driver of IT solutions within Rina.",
+				"My responsibility is to continue development of INEXTIA and Sertica with a strong focus on modernizing the presentation layer to make the software more maintainable, performant and accessible."
+			],
+			"links":[
+				"https://www.sertica.com/",
+				"https://www.inextia.dk/"
+			]
+		},
+		{
 			"title":"Development Senior Specialist - Front-end",
 			"company":"AskCody",
 			"companyWebsite":"https://www.askcody.com/",
@@ -22,7 +36,6 @@
 				"Working with time and timezones."
 			],
 			"links":[
-				
 			]
 		},
 		{

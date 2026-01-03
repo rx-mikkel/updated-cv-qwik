@@ -1,32 +1,35 @@
 header {
 	background-color: #610766;
 	background-image: linear-gradient(243deg, #645be4 0%, #925aec 100%);
-	border-bottom: 1px solid rgba(0,0,0,.2);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	margin-bottom: 4rem;
-	box-shadow: inset 0px -4px 12px -6px rgba(0,0,0,.25);
+	box-shadow: inset 0px -4px 12px -6px rgba(0, 0, 0, 0.25);
 	display: flex;
 	flex: 1;
 	justify-content: center;
 	position: relative;
-	padding-bottom: 7.5em;
+	padding-bottom: 5em;
 	color: #33044e;
 	z-index: 100;
 
-	h1, h2 {
-		text-shadow: 0px 0px 2px rgba(255, 255, 255, .25);
+	h1,
+	h2 {
+		text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
 	}
 }
 
 .bubble {
-	width: 11rem;
-	height: 11rem;
+	width: 9rem;
+	height: 9rem;
 	overflow: hidden;
 	border: 2px solid #fff;
 	position: absolute;
 	bottom: -4rem;
 	left: 50%;
 	margin-left: -5.5em;
-	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.18), 2px 2px 7px 1px rgba(0,0,0,.24);
+	box-shadow:
+		1px 2px 4px rgba(0, 0, 0, 0.18),
+		1px 1px 7px 2px rgba(0, 0, 0, 0.24);
 	border-radius: 50%;
 	transition: border-radius 4s ease;
 
@@ -44,23 +47,29 @@ header {
 }
 
 /* ==========================================================================
-	Over 720 width
-	========================================================================== */
-	@media screen and (min-width: 720px) {
-
-		header {
-			background-image: linear-gradient(243deg, #72169c 0%, #7837e0 36%, #9e71f3 100%);
-		}
+Over 720 width
+========================================================================== */
+@media screen and (min-width: 720px) {
+	header {
+		background-image: linear-gradient(243deg,
+				#72169c 0%,
+				#7837e0 36%,
+				#9e71f3 100%);
+	}
 }
 
 /* ==========================================================================
-	Over 840 width
-	========================================================================== */
-	@media screen and (min-width: 840px) {
+Over 840 width
+========================================================================== */
+@media screen and (min-width: 840px) {
+	header {
+		padding-bottom: 4rem;
+	}
 
-		header {
-			padding-bottom: 4rem;
-		}
+	.bubble {
+		width: 11rem;
+		height: 11rem;
+	}
 }
 
 @media print {
