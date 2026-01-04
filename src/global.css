@@ -13,7 +13,7 @@
 	--grey-background: #f3edf5;
 
 	--link: #53008a;
-	--link-light: #8618b9;
+	--link-light: #7c27a4;
 
 	--base-margin: 1em;
 
@@ -37,7 +37,7 @@
 	/* place behind card content, so card text is selectable, etc */
 	z-index: -1;
 	/* best if inset is at least half the border-width with minus */
-	inset: -1em;
+	inset: -1.2em;
 	/* reserve space for border */
 	border: solid 1em;
 	border-image: 
@@ -46,18 +46,18 @@
 				#ff0099, #cc22aa, transparent, #990033, #cc3399, 
 				#ff2200, #ff22dd, #ff2255, #aa22cc) 1;
 	/* blur this pseudo */
-	filter: blur(1.5em);
+	filter: blur(1.7em);
 	/* tweak animation duration as necessary */
 	animation: a 18s linear infinite;
 	/* needed so pseudo is displayed */
 	content: '';
 	transition: opacity 4s ease;
 	mask-image: conic-gradient(from calc(var(--a) * -1), transparent, #9922aa, transparent, 
-				transparent, #cc22aa, transparent, #990033, #ff2200, #ff22dd, #ff2255, #aa22cc, transparent);
+				transparent, #cc22aa, transparent, #990033, transparent, #ff22dd, #ff2255, #aa22cc, transparent);
 }
 
 .fire:hover::before {
-	opacity: .8;
+	opacity: .5;
 }
 
 /* animate --a from its initial-value 0deg to 1turn */
@@ -349,8 +349,8 @@ section {
 		--font-color: #ffffff;
 		--grey-background: #0e0618;
 
-		--link: #891cd1;
-		--link-light: rgb(176, 35, 189);
+		--link: #7a11c0;
+		--link-light: rgb(211, 46, 226);
 	}
 	
 	.btn-secondary {
