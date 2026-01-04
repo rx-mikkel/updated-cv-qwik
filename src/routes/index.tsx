@@ -1,4 +1,4 @@
-import { component$, useStore } from "@builder.io/qwik";
+import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import profile from "../profile.service.json";
 import Position from "~/components/position/position";
@@ -9,8 +9,6 @@ import Header from "~/components/header/header";
 import Footer from "~/components/footer/footer";
 
 export default component$(() => {
-	const store = useStore({ allPositions: false });
-
 	return (
 		<>
 			<Header />
@@ -54,48 +52,17 @@ export default component$(() => {
 							<h2>Experience</h2>
 						</div>
 						<div class='positionList'>
-							{store.allPositions
-								? profile.positions.map((position, index) => (
-										<Position
-											key={index}
-											title={position.title}
-											company={position.company}
-											companyWebsite={
-												position.companyWebsite
-											}
-											period={position.period}
-											description={position.description}
-											links={position.links}
-										/>
-									))
-								: profile.positions
-										.slice(0, 4)
-										.map((position, index) => (
-											<Position
-												key={index}
-												title={position.title}
-												company={position.company}
-												companyWebsite={
-													position.companyWebsite
-												}
-												period={position.period}
-												description={
-													position.description
-												}
-												links={position.links}
-											/>
-										))}
-						</div>
-						<div>
-							<button
-								id='toggleAllPostions'
-								class='raised btn-secondary'
-								onClick$={() =>
-									(store.allPositions = !store.allPositions)
-								}
-							>
-								{store.allPositions ? "Show less" : "Show all"}
-							</button>
+							{profile.positions.map((position, index) => (
+								<Position
+									key={index}
+									title={position.title}
+									company={position.company}
+									companyWebsite={position.companyWebsite}
+									period={position.period}
+									description={position.description}
+									links={position.links}
+								/>
+							))}
 						</div>
 					</div>
 				</div>
@@ -190,7 +157,7 @@ export default component$(() => {
 					<div class='section' id='githubSection'>
 						<div class='sectionHeader'>
 							<a
-								style='font-size: 1em;'
+								style='font-size: 1em; text-decoration: none;'
 								href='https://github.com/rx-mikkel/'
 								target='_blank'
 							>

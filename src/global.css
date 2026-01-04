@@ -134,16 +134,23 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5rem;
-	font-weight: 400;
+	font-size: 1.6rem;
+	font-weight: 800;
 	line-height: 52px;
 	display: inline-block;
 	margin: 0px;
 	vertical-align: top;
-}	
+}
+
+.main-layout h2 {
+	display: inline;
+	background: linear-gradient(90deg, var(--link-light), var(--link));
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
 h3 {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	font-weight: 700;
 	margin: .4em 0px;
 }
