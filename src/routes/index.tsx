@@ -147,9 +147,19 @@ export default component$(() => {
 						</div>
 						<div>
 							<div class='column activities'>
-								{profile.activities.map((act, index) => (
-									<h4 key={index}>{act}</h4>
-								))}
+								<h4>Spending time with my kids</h4>
+
+								<h4>
+									<a
+										style='font-weight: bold; font-size: 1.15rem'
+										href='https://www.instagram.com/mikkeloerumskp/'
+									>
+										Wood turning
+									</a>
+								</h4>
+
+								<h4>Playing guitar</h4>
+								<h4>Staying fit</h4>
 							</div>
 						</div>
 					</div>

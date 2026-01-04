@@ -171,6 +171,7 @@ header .wrap {
 	min-width: 20rem;
 	max-width: 84rem;
     margin: 0 auto;
+	position: relative;
 }
 
 main {
@@ -318,7 +319,7 @@ section {
 	}
 
 	header .wrap {
-		padding: 2rem;
+		padding: 1rem 2rem;
 	}
 
 	.section_left, .section_right {
